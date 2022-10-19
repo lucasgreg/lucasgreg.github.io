@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+#home{
+    height: 100vh;
+    background-color: #fbfbfd;
+}
+
+.container-principal{
+    font-family: 'Recursive', sans-serif;
+    color: black;
+    position: relative;
+    width: 80%;
+    top: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.container-boas-vindas{
+    font-size: 30px
+}
+
+
+.container-nome{
+    color: black;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.social-links{
+    text-decoration: none;
+}
+
+.social-icones{
+    width: 25px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 30%;
+}
+
+.social-icones:hover{
+    border-color: green;
+    background-color: #f3f3f3;
+    box-shadow: 1px 1px 7px 0px gray;
+}
+
+.github{
+    margin: 0px 15px 0px 15px;
+}
+
+/*-------------------------
+----------PROJETOS---------
+---------------------------*/
+
+
+#projetos{
+    background-color: black;
+    color: white;
+}
+
+.headline::before{
+    display: block;
+    content: "";
+    width: 20%;
+    height: 2px;
+    background: white;
+    right: 58%;
+    transform: translateY(32px);
+    position: absolute;
+} 
+
+.headline::after{
+    display: block;
+    content: "";
+    width: 20%;
+    height: 2px;
+    background: white;
+    left: 58%;
+    transform: translateY(-26px);
+    position: absolute;
+}
+
+#projetos h1{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.container-projetos{
+    padding: 45px 0px 100px 0px;
+}
+
+
+.div-projetos{
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.projeto{
+    margin-bottom: 20px;
+    border-radius: 6px;
+    width: 24%;
+    background-color: #dadadd;
+    color: black;
+}
+
+.projeto:hover{
+    box-shadow: 1px 1px 13px 0px gray;
+}
+
+.projeto-img{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+.img-projeto{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.projeto-titulo{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.projeto-titulo h6{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.projeto-div-informacao1,
+.projeto-div-informacao2,
+.projeto-div-informacao3,
+.projeto-div-informacao4,
+.projeto-div-informacao5,
+.projeto-div-informacao6,
+.projeto-div-informacao7,
+.projeto-div-informacao8{
+    display: none;
+    border-top: 1px solid rgb(188, 188, 188);
+    text-align: center;
+    margin: 0px 10px;
+}
+
+#projetos p{
+    font-size: 20px;
+    text-align: initial;
+    margin: 20px 10px 20px 10px;
+}
+
+.div-botao{
+    padding: 8px;
+    display: flex;
+}
+
+button{
+    padding: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid black;
+    color: black;
+    background-color: #dadadd;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    width: 50%;
+}
+
+button:hover{
+    background-color: rgb(199, 199, 199);
+    cursor: pointer;
+}
+
+
+
+#seta1,
+#seta2,
+#seta3,
+#seta4,
+#seta5,
+#seta6,
+#seta7,
+#seta8{
+    padding-left: 5px;
+    width: 15px;
+}
+
+/*-------------------------
+----------QUEM SOU---------
+---------------------------*/
+
+#quem-sou{
+    color: black;
+    background-color: #fbfbfd;
+    text-align: center;
+}
+
+.headline-quemSou h1{
+    font-size: 50px;
+}
+
+.container-apresentacao{
+    padding: 45px 0px 100px 0px;
+}
+
+.container-sobre{
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 7px 0px gray;
+    margin: auto;
+    background-color: white;
+    margin-top: 20px;
+
+}
+
+.container-sobre .img{
+    text-align: center;
+}
+
+.img-eu{
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 0px gray;
+    width: 45%;
+}
+
+.container-sobre-escrita{
+    font-size: 20px;
+    margin: 0px 50px;
+    padding: 30px;
+    text-align: justify;
+}
+
+.headline-softSkill{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.headline-softSkill::before{
+    display: block;
+    content: "";
+    width: 20%;
+    height: 1px;
+    background: black;
+    right: 58%;
+    transform: translateY(19px);
+    position: absolute;
+} 
+
+.headline-softSkill::after{
+    display: block;
+    content: "";
+    width: 20%;
+    height: 1px;
+    background: black;
+    left: 58%;
+    transform: translateY(-14px);
+    position: absolute;
+}
+
+.container-softSkil{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 50px;
+}
+
+.container-softSkil div{
+    width: 30%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(234, 233, 233);
+}
+
+.container-softSkil h3{
+    margin: 20px 20px 0px 20px;
+    font-size: 25px;
+}
+
+.container-softSkil p{
+    padding: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/*-------------------------
+---------RESPONSIVO---------
+---------------------------*/
+
+
+@media (max-width: 500px){
+    .container-principal{
+        top: 30%;
+    }
+
+    .container-boas-vindas{
+        font-size: 20px;
+    }
+
+    .container-nome{
+        font-size: 35px;
+    }
+
+    #projetos h1{
+        font-size: 35px;
+    }
+
+    .headline::before{
+        right: 68%;
+        transform: translateY(21px);
+    }
+
+    .headline::after{
+        left: 68%;
+        transform: translateY(-19px);
+    }
+
+    .div-projetos{
+        flex-direction: column;
+    }
+
+    .projeto{
+        width: 100%;
+    }
+
+    .container-sobre{
+        width: 93%;
+    }
+
+    .img-eu{
+        width: 80%;
+    }
+
+    .container-sobre-escrita{
+        margin: 0px 10px;
+        padding: 15px;
+    } 
+
+    .headline-softSkill::before{
+        right: 67%;
+    }
+
+    .headline-softSkill::after{
+        left: 67%;
+    }
+
+    .container-softSkil{
+        flex-direction: column;
+    }
+
+    .container-softSkil{
+        margin: 0px 20px;
+    }
+
+    .container-softSkil div{
+        width: 100%;
+    }
+
+    footer{
+        font-size: 13px;
+    }
+}
